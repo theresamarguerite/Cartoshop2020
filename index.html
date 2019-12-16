@@ -27,6 +27,12 @@ map.addSource('points', {
   type: 'geojson',
   data: 'https://github.com/theresamarguerite/Cartoshop2020/blob/master/map.geojson'
 });	
+map.addLayer({
+	'id': 'points', 
+	'type': 'circle',
+	'source': 'points',
+	});
+	
 	
 </script>
  
