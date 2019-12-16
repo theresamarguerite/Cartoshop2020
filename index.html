@@ -26,12 +26,12 @@ zoom: 9 // starting zoom
 map.on('load', function() {
 map.addSource('points', {
   type: 'geojson',
-  data: 'https://github.com/theresamarguerite/Cartoshop2020/blob/master/map.geojson'
+  data: 'map.geojson',
 });	
 map.addLayer({
-	'id': 'points', 
-	'type': 'circle',
-	'source': 'points',
+	id: 'points', 
+	type: 'circle',
+	source: 'points',
 	});
 });
 	
